@@ -1,8 +1,6 @@
-# deepspeed-abci-tutorial
-You can be distributed learning master with this repogitory!
-![ladder](./docs/ladder.png)
-
+# deepspeed-tutorial-miyabi
 ![zero](./docs/zero.png)
+[ZeRO: Memory Optimizations Toward Training Trillion Parameter Models](https://arxiv.org/abs/1910.02054)
 
 # Quick Start : DeepSpeed Zero-2
 Zero-2 is most popular method.
@@ -13,7 +11,7 @@ Setting
 - Training Model: ResNet50 (full scratch)
 - Epoch: 1
 - Batch size: 10,000
-- V100: 9node 36 GPUs
+- GH200: 2node 2 GPUs
 
 ## Edit config before training
 > [!NOTE]
